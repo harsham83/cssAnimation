@@ -1,0 +1,75 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    margin: 0px;
+    padding: 0px; 
+    /* border: blue solid 2px;  */
+}
+
+div {
+    text-align: center; 
+    /* width: 200px; */
+    /* border: red solid 2px;  */
+    margin: 0px;
+    padding: 0px; 
+}
+
+
+select{
+    height: 30px;
+    border-radius: 8px;
+    width: 100%;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    /* transition: transform 1s linear; */
+}
+
+img:hover {
+    content: url('https://rihaa.com/cdn/shop/products/image_600x_3152760b-5a53-452f-88b9-896e67b13467_200x.jpg?v=1668004970');
+}
+
+h1 {
+    text-align: center;
+}
+
+button {
+    margin-top: 10px;
+    background: #e74c3c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    /* transition: background 0.3s ease-in-out; */
+    border-radius: 6px;
+    width: 100%
+}
+
+button:hover {
+    animation: example 0.4s linear 0s 1 normal forwards;
+}
+
+@keyframes example {
+    0% {
+        background: linear-gradient(to right, #3498db 0%, #e74c3c 100%);
+    }
+    25% {
+        background: linear-gradient(to right, #3498db 20%, #e74c3c 80%);
+    }
+    50% {
+        background: linear-gradient(to right, #3498db 40%, #e74c3c 60%);
+    }
+    65% {
+        background: linear-gradient(to right, #3498db 60%, #e74c3c 40%);
+    }
+    85% {
+        background: linear-gradient(to right, #3498db 80%, #e74c3c 20%);
+    }
+    100% {
+        background: linear-gradient(to right, #3498db 100%, #e74c3c 10%);
+    }
+}
